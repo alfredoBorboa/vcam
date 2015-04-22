@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>53D80EA2-1E46-4F3C-80DC-1E0A140DBA7F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VCam</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3C542FC7DF8E7EC531E83A06141AF6E2C0B7538F</key>
+		<string>https://github.com/alfredoBorboa/vcam.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>platforms/ios/VCam.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3C542FC7DF8E7EC531E83A06141AF6E2C0B7538F</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/alfredoBorboa/vcam.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3C542FC7DF8E7EC531E83A06141AF6E2C0B7538F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3C542FC7DF8E7EC531E83A06141AF6E2C0B7538F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>vcam</string>
+		</dict>
+	</array>
+</dict>
+</plist>

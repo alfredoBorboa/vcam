@@ -2,11 +2,12 @@
 <widget id="com.dev.vcam" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>VCam</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Image capture, decorating and sharing app for Vans.
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
+        Alfredo Borboa Osorio
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <preference name="Backgroundcolor" value="0xFF000000" />
 </widget>
