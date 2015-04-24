@@ -43,6 +43,7 @@ function cargaHome1aVez(){
                                                                  Transform.translate(1, 1),
                                                                  { duration : 1500, curve: Easing.inOutBack }
                                                                  );
+                                      mBotonStart.setOpacity( 1.0, { duration: 2000, curve: 'easeInOut' });
                                       });
                }, 3000);
 }
@@ -63,8 +64,22 @@ var sModFondoP2 = new StateModifier();
 sModFondoP2.setOpacity( 0 );
 mainContext.add(sModFondoP2).add(fondoP2);
 
+var botonStart = new Surface({
+                           content: "Start",
+                           size: [ 300, 300 ],
+                           properties:{
+                           backgroundColor: '#F00',
+                           color: '#FFF',
+                           textAlign: 'center',
+                           }
+});
 
-// tooltip de bienvenido y botones para leer terminos, condiciones y aviso de privacidad
+var mBotonStart = new StateModifier();
+mBotonStart.setOpacity( 0 );
+mainContext.add( mBotonStart ).add( botonStart );
+
+
+// ---------------------tooltip de bienvenido y botones para leer terminos, condiciones y aviso de privacidad
 var ratios = [5, 1, 1];
 
 var welcomeTooltip = new FlexibleLayout({
@@ -88,7 +103,6 @@ for(var i = 0; i < 3; i++) {
                               color: "#000",
                               paddingLeft: "10px",
                               paddingRight: "10px",
-                              /*lineHeight: '100px',*/
                               textAlign: 'center'
                               }
                               }));
@@ -161,6 +175,8 @@ var mWelcomeTooltip = new StateModifier({
 });
 
 mainContext.add(mWelcomeTooltip).add(welcomeTooltip);
+
+//---------------------------------------------------- termina tooltip de bienvenido
 
 
 
